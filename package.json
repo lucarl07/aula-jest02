@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx eslint ./js/script.js && npx eslint ./js/suite.test.js",
+    "fix-all": "npx eslint ./js/script.js --fix && npx eslint ./js/suite.test.js --fix",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
