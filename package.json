@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx eslint ./js/script.js && npx eslint ./js/suite.test.js",
-    "fix-all": "npx eslint ./js/script.js --fix && npx eslint ./js/suite.test.js --fix",
+    "start": "eslint ./tests/script.js && eslint ./tests/suite.test.js",
+    "fix-all": "eslint ./tests/regex.js --fix && eslint ./tests/suite.test.js --fix && ./tests/object.test.js",
     "test": "jest"
   },
   "keywords": [],
